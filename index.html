@@ -13,18 +13,18 @@
     <title>Demo</title>
 </head>
 <body>
-    <main>
+    <main id="home">
         <header class="fix-header">
             <div class="content">
                 <nav class="navbar">
                     <img src="./assets/img/Logo.svg" alt="Besnik">
     
                     <ul>
-                        <li><a href="#!">Home</a></li>
-                        <li><a href="#!">Features</a></li>
-                        <li><a href="#!">Services</a></li>
-                        <li><a href="#!">Resources</a></li>
-                        <li><a href="#!">Contact</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#featured">Features</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#resources">Resources</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
     
                     <div class="action">
@@ -126,7 +126,7 @@
         </div>
 
         <!--Featured-->
-        <div class="featured">
+        <div class="featured" id="featured">
             <div class="content">
                 <header>
                     <h2 class="sub-title">Featured Properties</h2>
@@ -185,7 +185,7 @@
         </div>
 
         <!--Stats-->
-        <div class="stats">
+        <div class="stats" id="services">
             <div class="content">
                 <div class="row">
                     <div class="img-block">
@@ -255,7 +255,7 @@
         </div>
 
         <!--Subscription-->
-        <div class="subscription">
+        <div class="subscription" if="resources">
             <div class="content">
                 <div class="body">
                     <div class="info">
@@ -269,7 +269,7 @@
         </div>
 
         <!--Footer-->
-        <footer class="footer">
+        <footer class="footer" id="contact">
             <div class="content">
                 <div class="row">
                     <div class="column">
