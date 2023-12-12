@@ -26,10 +26,18 @@ i{
     top: 2px
 }
 /*HEADER */
-.header{
+.hero-swap{
     position: relative;
     background: #e6f0ff;
     height: 100vh;
+}
+.fix-header{
+    background-color:#e6f0ff;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+
 }
 .content{
     width: 1110px;
@@ -59,7 +67,8 @@ i{
 .navbar{
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    /* padding-top: 38px; */
+    padding: 12px 0;
 }
 .navbar ul a{
     font-weight: 500;
@@ -82,8 +91,7 @@ i{
 }
 
 .hero{
-    margin-top: 130px;
-
+    padding-top: 130px;
 }
 
 .hero .sub-title{
@@ -251,7 +259,7 @@ i{
 .featured{
     margin-top: 230px;
     padding: 110px 0;
-    background-color:orange;
+    background-color:#e6f0ff;
 }
 
 .featured .sub-title{
